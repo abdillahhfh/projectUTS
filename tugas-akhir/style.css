@@ -1,39 +1,40 @@
-.container{
+.container {
   margin: 5em 8em;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.right{
+.right {
   text-align: right;
 }
 
-.orange{
+.orange {
   background-color: #ff6d00;
 }
 
-.white-text{
+.white-text {
   color: white;
 }
 
-.table{
+.table {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
 }
 
-body{
+body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-nav{
+nav {
   padding: 2em 2em;
   box-shadow: 1px 2px 2px silver;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -41,12 +42,15 @@ nav a{
   text-shadow: 1px 1px 1px gray;
 }
 
-p a{
+p a {
   text-decoration: none;
   color: #e65100;
 }
 
-footer{
+footer {
   padding: 1em 2em;
   box-shadow: 1px 2px 2px silver;
+}
+.footer-register {
+  margin-top: 200px;
 }
