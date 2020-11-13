@@ -8,6 +8,7 @@
 
 .right {
   text-align: right;
+  float: left;
 }
 
 .orange {
@@ -24,11 +25,22 @@
   text-align: left;
 }
 
+.post{
+  background-color: rgb(216, 216, 216);
+  padding:10px;
+}
+
+.post img{
+  float: left;
+  margin: 10px;
+}
+
 body {
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 nav {
   padding: 2em 2em;
   box-shadow: 1px 2px 2px silver;
