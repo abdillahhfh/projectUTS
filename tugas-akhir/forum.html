@@ -22,37 +22,27 @@
 			<h1>Universitas Dian Nuswantoro</h1>
 		</header>
 	</div>
-	<div>
-		<section class="center">
-			<table cellpadding="10" align="center">
-				<tr>
-					<td>
-						<img src="img/p1.jpg">
-					</td>
-					<td>
-						<img src="img/p2.jpg">
-					</td>
-					<td>
-						<img src="img/p3.jpg">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h3>Forum Diskusi</h3>
-					</td>
-					<td>
-						<h3>Komunitas</h3>
-					</td>
-					<td>
-						<h3>Services</h3>
-					</td>
-				</tr>			
-			</table>
-		</section>
+		<div class="container">
+		<h1 class="center">Forum</h1>
+		<div class="post">
+			<img src="img/profile.jpg" alt="foto-profile" class="foto-profile">
+			<p>Anonymous</p>
+			<p>Angkatan XII</p>
+			<br><hr>
+			<form>
+				<input type="text" placeholder="Judul Post" style="width: 99%;" id="judul-post">
+				<br><hr>
+				<textarea placeholder="Isi postingan" name="isi" id="isi" cols="116" rows="15" style="width: 99%;"></textarea>
+				<br>
+				<button type="submit" id="submit-post"> Post</button>
+			</form>
+		</div>
+		<div class="post" id="post-container">
+		</div>
 	</div>
-
 	<footer class="center orange white-text">
 		<h3>Copyright &copy; 2020 FormaTIdin</h3>
 	</footer>
+	<script src="./forum.js"></script>
 </body>
 </html>

@@ -8,6 +8,7 @@
 
 .right {
   text-align: right;
+  float: left;
 }
 
 .orange {
@@ -24,11 +25,22 @@
   text-align: left;
 }
 
+.post {
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+}
+
+.post img {
+  float: left;
+  margin: 10px;
+}
+
 body {
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 nav {
   padding: 2em 2em;
   box-shadow: 1px 2px 2px silver;
@@ -53,4 +65,25 @@ footer {
 }
 .footer-register {
   margin-top: 200px;
+}
+.user-post {
+  border: solid black 1px;
+  padding: 10px 30px;
+  margin-bottom: 25px;
+}
+.user-post h3 {
+  text-align: center;
+}
+.user-post .foto-profile {
+  float: left;
+  margin: 10px;
+}
+.user-post .close-button {
+  float: right;
+  margin: 10px;
+  width: 32px;
+  position: relative;
+  top: -100px;
+  right: -30px;
+  cursor: pointer;
 }
